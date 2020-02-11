@@ -1,0 +1,263 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ea2803+12,ea2803+12,e86c57+32,ff6600+47,c72200+72,c72200+72,f3c5bd+89,f3c5bd+89 */
+background: #ea2803; /* Old browsers */
+background: -moz-linear-gradient(top,  #ea2803 12%, #ea2803 12%, #e86c57 32%, #ff6600 47%, #c72200 72%, #c72200 72%, #f3c5bd 89%, #f3c5bd 89%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ea2803 12%,#ea2803 12%,#e86c57 32%,#ff6600 47%,#c72200 72%,#c72200 72%,#f3c5bd 89%,#f3c5bd 89%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ea2803 12%,#ea2803 12%,#e86c57 32%,#ff6600 47%,#c72200 72%,#c72200 72%,#f3c5bd 89%,#f3c5bd 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea2803', endColorstr='#f3c5bd',GradientType=0 ); /* IE6-9 */
+
+
+}
+main, footer{
+    width: 90%;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+
+}
+    header{
+    width: 80%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    
+    }
+        .logo {
+            width: 20%;
+        
+        }
+        .logo img{
+            width: 100%;
+            
+        }
+        nav{
+            padding-right: 6em;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav li{
+            padding: 1em;
+        }
+        header a{
+        text-decoration: none;
+        color: #ffffff;
+        padding: 0.4em;
+        }
+        .burger{
+            display: block;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            margin-top: 0.5em;           
+            margin-bottom: 0.5em;
+          }
+          .burger div {
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            width: 25px;
+            margin: 0.5em 0.2em;
+          }
+main{
+    background-color: #ffffff;
+}
+    .banniere{
+        background-image: url(img/2foret.jpg);
+        background-size: cover;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 30%;
+        padding-bottom: 30%;
+        
+    }
+        .banniere a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            padding:0.4em;
+            border: solid 1px #ffffff;
+        }
+    .question{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+        .why, .how, .what{
+            width:30%;
+        } 
+        .small{
+            font-size: 13px;
+           
+        }
+        
+        .what img{
+            width:32px;
+        }
+        .what .small{
+             padding-left: 37px;
+        }
+        .how span{
+            color: #F20505;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+    .photo{
+        margin: 2em 0;
+    }
+    .photou{
+        width: 100%;
+    }
+        .photou ul{
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 0;
+            padding: 0 0;
+        }
+        .photou li{
+            width: 25%;
+            height: 14em;
+        }
+        .photou img{
+            width:100%;
+            overflow: hidden;
+            min-height: 100%;
+        }
+    .botphoto{
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .botphoto ul{
+        display: flex;
+    }
+    .botphoto a{
+        text-decoration: none;
+        color: #000000;
+        padding: 0.5em;
+    }
+    .botphoto span{
+        color:  #F20505;
+    }
+    .button{
+        
+        border: 1px solid  #F20505;
+        padding: 1em 1em;
+    }
+    .button a{
+        color: #F20505;
+        padding:0.4em;
+    }
+    h3{
+        text-align: center;
+        border-bottom: 2 px solid #F20505;
+    }
+    .flex{
+        display: flex;
+        
+        width:80%;
+        margin:1em auto;
+        border-bottom:  solid 1px #ffffff;
+    }
+    .flex img{
+        width: 4em;
+        padding: 0 2em;
+    }
+    .flex span{
+        font-weight: bold;
+    }
+
+    .horizon{
+        background-image: url(img/17background.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+       
+    }
+    .horicontenu{
+        width:60%;
+        margin: 2em auto;
+         color: #ffffff;
+        text-align: center;
+        padding: 4em 4em;
+    }
+    h4{
+        padding: 2em 0;
+    }
+    .horicontenu p{
+        padding: 2em 0;
+    }
+    .horicontenu a{
+        border: 1px solid  #F20505;
+        padding: 1em 1em;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .contact{
+        width: 80%;
+        margin: 0 auto;
+
+    }
+        .formulaire2{
+            display: flex;
+            justify-content: space-between;
+        }
+        .formulaire2 input{
+            width:90%;
+            background-color: #C0C4C2;
+        }
+        .formulaire2 textarea{
+            width: 90%;
+            background-color: #C0C4C2;
+        }
+        .sect1, .sect2{
+            padding-left: 0;
+            width: 15em;
+        }
+        #send{
+            background-color: #F20505;
+            color:#ffffff;
+            width: 5em;
+        }
+footer{
+    color: #ffffff;
+    background-color: #000000;
+}
+    .footcont{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about, .letter,.twitter{
+        width:30%;
+    }
+    .letter textarea{
+        background-color: #C0C4C2;
+        width: 90%;
+    }
+    #sub{
+        border: 1px solid #F20505;
+        color: #ffffff;
+        background-color: #2E2E2E;
+        margin: 1em 0;
+    }
+    .footcont span{
+        font-weight: bold;
+    }
+    #red{
+        color: #F20505;
+        font-weight: normal;
+
+    }
+
+    
